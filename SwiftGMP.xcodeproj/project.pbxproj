@@ -11,7 +11,6 @@
 		AB342C3F1B0DD0DF00BB8D19 /* SwiftGMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB342C331B0DD0DF00BB8D19 /* SwiftGMP.framework */; };
 		AB342C461B0DD0DF00BB8D19 /* SwiftGMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB342C451B0DD0DF00BB8D19 /* SwiftGMPTests.swift */; };
 		ABA3DA951D71006800F63943 /* GMPInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3DA941D71006800F63943 /* GMPInteger.swift */; };
-		ABC1AACC1C199A30002CFF97 /* GMPLib in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABDB8DD21C1998AC0008F212 /* GMPLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +22,6 @@
 			remoteInfo = SwiftGMP;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AB6C4CBE1C0A68C600CC2D74 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				ABC1AACC1C199A30002CFF97 /* GMPLib in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		110067D11D70B9C700FE25D6 /* GMPDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPDouble.swift; sourceTree = "<group>"; };
@@ -142,7 +128,6 @@
 				AB342C2F1B0DD0DF00BB8D19 /* Frameworks */,
 				AB342C301B0DD0DF00BB8D19 /* Headers */,
 				AB342C311B0DD0DF00BB8D19 /* Resources */,
-				AB6C4CBE1C0A68C600CC2D74 /* CopyFiles */,
 			);
 			buildRules = (
 			);
